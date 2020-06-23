@@ -12,9 +12,10 @@
     "react-scripts": "3.4.1"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "serve -s build",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "start:react": "react-scripts start",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
