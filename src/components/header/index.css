@@ -1,0 +1,25 @@
+.header{
+    display: flex;
+    background-color: #4d4d4d;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100vw;
+
+}
+.logo{
+    width: 50%;
+    padding-left: 2rem;
+    
+}
+.logo h3{
+    color: #efefef;
+    
+}
+.navlinks{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}

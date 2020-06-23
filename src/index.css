@@ -1,0 +1,21 @@
+@font-face {
+  font-family: 'Typochok';
+  src: local('Typochok'), url(./fonts/Typochok.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Sintony-Bold';
+  src: local('Sintony-Bold'), url(./fonts/Sintony-Bold.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Sintony-Regular';
+  src: local('Sintony-Regular'), url(./fonts/Sintony-Regular.ttf) format('truetype');
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body, html {
+  margin: 0px;
+}

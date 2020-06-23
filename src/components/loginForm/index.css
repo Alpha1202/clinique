@@ -1,0 +1,119 @@
+.wrapper {
+    width: 100%;
+    height: 100%;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.divA{
+    flex: 1;
+}
+.divB {
+    flex: 1;
+
+    height: 100%;
+}
+.divBWrapper{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 70%;
+    margin: 0 auto;
+}
+.formLogo{
+    display: flex;
+   
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: max-content;
+    flex-direction: column;
+}
+.formLogo h2 {
+    font-family: 'Typochok';
+    color: green;
+    font-size: 5.5rem;
+}
+.formWrapper{
+    flex: 5;
+    width: 100%;
+    /* border-radius: 5%;
+    border-color: #555;
+    border-width: 5px;
+    border-style: solid; */
+}
+.form{
+    border-radius: 20px;
+    /* border-color: black; */
+    border-width: 5px;
+    /* border-style: solid; */
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: transparent;
+    flex-direction: column;
+    padding: 6px;
+}
+.formInput{
+    border: 5px solid rgb(98, 97, 97);
+    width: 100%;
+    border-radius: 20px;
+    padding: .2rem;
+}
+.formItem{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    padding: 0.6em;
+}
+.formItem2{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 1em;
+    /* background-color: brown; */
+}
+.btn {
+    border: 1px solid black;
+    background-color: blue;
+    color: white;
+    border-radius: 1rem;
+    text-align: center;
+    font-size: large;
+    width: 100%;
+    height: 3rem;
+    outline: none;
+}
+.btnWrapper{
+    /* background-color: blue; */ 
+    width: 54%;
+    margin-left: auto;
+    margin-right: 42px;
+}
+.btnWrapper1{
+    /* background-color: red; */
+    width: 50%
+}
+.input{
+    border: 1px solid black;
+    background-color: white;
+    border-radius: 1rem;
+    text-align: center;
+    font-size: large;
+    padding: 3px 6px;
+    outline: none;
+}
+
+.formItem > p{
+    color: green;
+    font-weight: bold;
+}
+
+.back-form-wrapper{
+    width: 100%;
+    padding: 1px;
+    background-color: rgba(87, 82, 82, 0.472);
+    border-radius: 20px;
+}
